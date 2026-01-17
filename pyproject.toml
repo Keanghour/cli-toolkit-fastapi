@@ -28,4 +28,4 @@ dependencies = [
 ]
 
 [project.scripts]
-cnb = "cnb_cli.main:main"
+dev = "cnb_cli.main:main"
