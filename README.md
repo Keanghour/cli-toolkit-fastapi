@@ -6,6 +6,11 @@ Built to be **clean**, **interactive**, and **production-ready**.
 
 ---
 
+![test](https://github.com/user-attachments/assets/aecdb06e-833d-4cbb-a676-5ef4838fdc05)
+<img width="2110" height="320" alt="image" src="https://github.com/user-attachments/assets/86a4c377-7aab-472f-9024-2a7f8429c455" />
+<img width="2092" height="266" alt="image" src="https://github.com/user-attachments/assets/4ae84827-fc4e-4b1f-9cfe-75a3f4479359" />
+
+
 ## ✨ Features
 
 * ⚡ FastAPI project scaffolding
@@ -257,4 +262,5 @@ If you want, next I can:
 * Add screenshots
 * Add CI/CD `.gitlab-ci.yml`
 * Rename dev → Zackry CLI fully
+
 
