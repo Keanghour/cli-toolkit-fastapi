@@ -21,13 +21,13 @@ Built to be **clean**, **interactive**, and **production-ready**.
 ## 📦 Installation
 
 ```bash
-pip install cnb-cli
+pip install dev-cli
 ```
 
 Verify installation:
 
 ```bash
-cnb --help
+dev --help
 ```
 
 ---
@@ -257,3 +257,4 @@ If you want, next I can:
 * Add screenshots
 * Add CI/CD `.gitlab-ci.yml`
 * Rename dev → Zackry CLI fully
+
