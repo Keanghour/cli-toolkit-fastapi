@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+gunicorn
+cryptography
+pydantic-settings
+typer
+rich

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cnb-cli"
+version = "1.0.0"
+description = "CNB CLI – FastAPI project helper, encryption, Docker, request management"
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "M. Hour Zackry", email = "phokeanghour12@gmail.com" }
+]
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic-settings",
+    "cryptography",
+    "httpx",
+    "typer",
+    "rich",
+    "gunicorn",
+    "playwright",
+    "openpyxl",
+    "questionary"
+]
+
+[project.scripts]
+cnb = "cnb_cli.main:main"
