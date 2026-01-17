@@ -1,17 +1,17 @@
 import typer
-from cnb_cli.commands.init import init_project
-from cnb_cli.commands.encrypt import encrypt_menu
-from cnb_cli.commands.docker import docker_menu
-from cnb_cli.commands.deploy import deploy_tool
-from cnb_cli.commands.generate import generate_menu
-from cnb_cli.commands.request import request_menu
+from xxx_cli.commands.init import init_project
+from xxx_cli.commands.encrypt import encrypt_menu
+from xxx_cli.commands.docker import docker_menu
+from xxx_cli.commands.deploy import deploy_tool
+from xxx_cli.commands.generate import generate_menu
+from xxx_cli.commands.request import request_menu
 
-from cnb_cli.commands.pip_guide import PIP_GUIDE
+from xxx_cli.commands.pip_guide import PIP_GUIDE
 
 from rich.console import Console
 from rich.markup import escape
 
-app = typer.Typer(help="CNB CLI 🚀")
+app = typer.Typer(help="xxx CLI 🚀")
 
 console = Console()
 
@@ -21,7 +21,7 @@ console = Console()
 @app.callback(invoke_without_command=True)
 def main(ctx: typer.Context, helper: bool = typer.Option(False, "--helper", help="Show help message")):
     """
-    CNB CLI: FastAPI project helper, encryption, Docker, request management
+    xxx CLI: FastAPI project helper, encryption, Docker, request management
     """
     if helper or ctx.invoked_subcommand is None:
         typer.echo(app.get_help(ctx))
@@ -33,42 +33,42 @@ def main(ctx: typer.Context, helper: bool = typer.Option(False, "--helper", help
 
 @app.command("i")
 def i():
-    """[bold green]cnb i[/bold green] – Initialize a new FastAPI project ⚡"""
+    """[bold green]xxx i[/bold green] – Initialize a new FastAPI project ⚡"""
     init_project()
 
 @app.command("init")
 def init():
-    """[bold green]cnb init[/bold green] – Initialize a new FastAPI project ⚡"""
+    """[bold green]xxx init[/bold green] – Initialize a new FastAPI project ⚡"""
     init_project()
 
 @app.command("e")
 def e():
-    """[bold yellow]cnb e[/bold yellow] – Encryption Tools 🔐"""
+    """[bold yellow]xxx e[/bold yellow] – Encryption Tools 🔐"""
     encrypt_menu()
 
 @app.command("b")
 def b():
-    """[bold blue]cnb b[/bold blue] – Docker Build Tools 🐳"""
+    """[bold blue]xxx b[/bold blue] – Docker Build Tools 🐳"""
     docker_menu()
 
 @app.command("d")
 def d():
-    """[bold magenta]cnb d[/bold magenta] – Docker Deployment Tool 🚀"""
+    """[bold magenta]xxx d[/bold magenta] – Docker Deployment Tool 🚀"""
     deploy_tool()
 
 @app.command("g")
 def g():
-    """[bold cyan]cnb g[/bold cyan] – Component Generator 🛠️"""
+    """[bold cyan]xxx g[/bold cyan] – Component Generator 🛠️"""
     generate_menu()
 
 @app.command("r")
 def r():
-    """[bold red]cnb r[/bold red] – Request Management System 🎫"""
+    """[bold red]xxx r[/bold red] – Request Management System 🎫"""
     request_menu()
 
 @app.command("zackry")
 def zackry():
-    """[bold blue]cnb zackry[/bold blue] - Show Pip & FastAPI Guide / About the Creator"""
+    """[bold blue]xxx zackry[/bold blue] - Show Pip & FastAPI Guide / About the Creator"""
     console.print(PIP_GUIDE)
 
 
