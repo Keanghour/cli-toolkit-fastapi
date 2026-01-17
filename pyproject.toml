@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cnb-cli"
+name = "dev-cli"
 version = "1.0.0"
-description = "CNB CLI – FastAPI project helper, encryption, Docker, request management"
+description = "ZACKRY CLI – FastAPI project helper, encryption, Docker, request management"
 requires-python = ">=3.10"
 readme = "README.md"
 license = "MIT"
@@ -28,4 +28,4 @@ dependencies = [
 ]
 
 [project.scripts]
-dev = "cnb_cli.main:main"
+dev = "dev_cli.main:main"
