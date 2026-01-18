@@ -6,8 +6,6 @@ Built to be **clean**, **interactive**, and **production-ready**.
 
 ---
 
-![test](https://github.com/user-attachments/assets/aecdb06e-833d-4cbb-a676-5ef4838fdc05)
-
 ## ✨ Features
 
 * ⚡ FastAPI project scaffolding
@@ -31,6 +29,7 @@ Verify installation:
 ```bash
 dev --help
 ```
+![test2](https://github.com/user-attachments/assets/5f1e54e0-5b14-4aa4-adfb-7394820cffd0)
 
 ---
 
@@ -108,7 +107,7 @@ http://127.0.0.1:8000/health
 
 ---
 
-<img width="2110" height="320" alt="image" src="https://github.com/user-attachments/assets/86a4c377-7aab-472f-9024-2a7f8429c455" />
+<img width="3024" height="306" alt="image" src="https://github.com/user-attachments/assets/6ec0e652-303e-4c32-938b-34864f4e7c51" />
 
 ## 🔐 Encryption Guide
 
@@ -159,7 +158,9 @@ DEBUG_MODE=gAAAAAB...
 ```
 
 ---
-<img width="2092" height="266" alt="image" src="https://github.com/user-attachments/assets/4ae84827-fc4e-4b1f-9cfe-75a3f4479359" />
+
+<img width="3022" height="274" alt="image" src="https://github.com/user-attachments/assets/9959d660-d428-40dd-b021-eeea7fca4079" />
+<img width="3018" height="416" alt="image" src="https://github.com/user-attachments/assets/dfc6a30b-8b17-4f04-b8cd-6683a649b84b" />
 
 ## 🎫 Request Management (Excel)
 
@@ -187,6 +188,7 @@ Name | Value
 ```bash
 dev b
 ```
+<img width="3024" height="222" alt="image" src="https://github.com/user-attachments/assets/dd6cd802-c0d2-42d5-8287-5b432e9e2048" />
 
 ### Production run
 
@@ -262,6 +264,8 @@ If you want, next I can:
 * Add screenshots
 * Add CI/CD `.gitlab-ci.yml`
 * Rename dev → Zackry CLI fully
+
+<img width="1040" height="362" alt="image" src="https://github.com/user-attachments/assets/e377d6b3-9b1f-4650-9caf-52b02ba813ff" />
 
 
 
