@@ -267,5 +267,17 @@ If you want, next I can:
 
 <img width="1040" height="362" alt="image" src="https://github.com/user-attachments/assets/e377d6b3-9b1f-4650-9caf-52b02ba813ff" />
 
+---
+
+## 📫 Get in Touch
+
+I’m always happy to connect! Whether you have a question, feedback, or just want to say hi, feel free to reach out or open an issue. I’ll do my best to respond as soon as I can 😊
+
+- 📧 **Email**: [phokeanghour12@gmail.com](mailto:phokeanghour12@gmail.com)
+- 💬 **Telegram**: [@phokeanghour](https://t.me/phokeanghour)
+- 💼 **LinkedIn**: [Pho Keanghour](https://www.linkedin.com/in/pho-keanghour-27133b21b/)
+
+[![Telegram](https://www.vectorlogo.zone/logos/telegram/telegram-ar21.svg)](https://t.me/phokeanghour)
+[![LinkedIn](https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg)](https://www.linkedin.com/in/pho-keanghour-27133b21b/)
 
 
