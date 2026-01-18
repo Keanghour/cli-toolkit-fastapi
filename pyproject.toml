@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dev-cli"
+name = "cnb-cli"
 version = "1.0.0"
-description = "ZACKRY CLI – FastAPI project helper, encryption, Docker, request management"
+description = "CNB CLI – FastAPI project helper, encryption, Docker, request management"
 requires-python = ">=3.10"
 readme = "README.md"
 license = "MIT"
@@ -21,6 +21,8 @@ dependencies = [
     "httpx",
     "typer",
     "rich",
+    "loguru",
+    "toml",
     "gunicorn",
     "playwright",
     "openpyxl",
@@ -28,4 +30,4 @@ dependencies = [
 ]
 
 [project.scripts]
-dev = "dev_cli.main:main"
+cnb = "cnb_cli.main:main"
