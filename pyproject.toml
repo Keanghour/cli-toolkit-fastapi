@@ -30,4 +30,4 @@ dependencies = [
 ]
 
 [project.scripts]
-cnb = "cnb_cli.main:main"
+zackry = "dev_cli.main:main"
